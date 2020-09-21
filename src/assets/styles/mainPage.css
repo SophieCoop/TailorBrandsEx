@@ -1,0 +1,19 @@
+.header {
+    height:60px;
+    background-color: #373737;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-items-container {
+    margin: 77px 98px 77px;
+}
+
+@media (max-width: 1024px) {
+    .hotel-items-container {
+        margin: 27px 22px 27px; 
+    }
+
+    
+  }
+
