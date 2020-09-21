@@ -15,7 +15,7 @@ const MainPage = () => {
     const [totalNumOfPages, setTotalNumOfPages] = useState(0);
     const [allOffSets, setOffSet] = useState([""]);
     const [currPage, setPage] = useState(1);
-    const { width } = useWindowDimensions();
+    const width = useWindowDimensions();
     
     
     useEffect(() => {

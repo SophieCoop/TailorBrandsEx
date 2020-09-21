@@ -20,5 +20,5 @@ function getWindowDimensions() {
       return () => window.removeEventListener('resize', handleResize);
     }, []);
   
-    return windowDimensions;
+    return windowDimensions.width;
   }
